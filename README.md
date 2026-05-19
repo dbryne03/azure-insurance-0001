@@ -2,12 +2,13 @@
 
 Insurance data migration and validation pipeline on Microsoft Azure.
 
-**Live output:** [Validation Dashboard](#) · [Reconciliation Reports](#)  
-**Portfolio:** [davidbryneadedeji.com/docs/projects/azure](https://davidbryneadedeji.com/docs/projects/azure)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Microsoft%20Azure%20%230001-3b7d5c?style=flat-square)](https://davidbryneadedeji.com/docs/projects/azure)
+[![ADF](https://img.shields.io/badge/Live-Validation%20Dashboard-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)](#)
+[![Reports](https://img.shields.io/badge/Live-Reconciliation%20Reports-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)](#)
 
 ---
 
-Infrastructure is deployed and runs entirely on Microsoft Azure, provisioned via Pulumi. Source code is version-controlled here; live outputs are accessible via the links above.
+Infrastructure is deployed and runs entirely on Microsoft Azure, provisioned via Pulumi. Source code is version-controlled here; live outputs are accessible via the badges above.
 
 A Technical Design Document is available on request at [davidbryneadedeji.com](https://davidbryneadedeji.com).
 
