@@ -1,0 +1,19 @@
+{
+  "name": "ls_sftp",
+  "type": "Sftp",
+  "description": "SFTP server (Azure Container Apps) — broker submission files",
+  "properties": {
+    "type": "Sftp",
+    "typeProperties": {
+      "host": "@Microsoft.KeyVault(SecretUri=https://{keyVaultName}.vault.azure.net/secrets/sftp-host/)",
+      "port": 22,
+      "authenticationType": "Basic",
+      "userName": "@Microsoft.KeyVault(SecretUri=https://{keyVaultName}.vault.azure.net/secrets/sftp-user/)",
+      "password": {
+        "type": "AzureKeyVaultSecret",
+        "store": { "referenceName": "ls_key_vault", "type": "LinkedServiceReference" },
+        "secretName": "sftp-password"
+      }
+    }
+  }
+}

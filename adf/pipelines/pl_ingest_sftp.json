@@ -1,0 +1,11 @@
+{
+  "name": "pl_ingest_sftp",
+  "description": "Pick up broker submission CSV files from SFTP and archive to ADLS Gen2",
+  "properties": {
+    "parameters": {
+      "sftp_folder": { "type": "string", "defaultValue": "/submissions" },
+      "archive_folder": { "type": "string", "defaultValue": "/processed" }
+    },
+    "activities": []
+  }
+}

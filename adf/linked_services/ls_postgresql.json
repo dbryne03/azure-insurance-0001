@@ -1,0 +1,11 @@
+{
+  "name": "ls_postgresql",
+  "type": "AzurePostgreSql",
+  "description": "Azure Database for PostgreSQL — insurance source",
+  "properties": {
+    "type": "AzurePostgreSql",
+    "typeProperties": {
+      "connectionString": "@Microsoft.KeyVault(SecretUri=https://{keyVaultName}.vault.azure.net/secrets/postgres-connection-string/)"
+    }
+  }
+}

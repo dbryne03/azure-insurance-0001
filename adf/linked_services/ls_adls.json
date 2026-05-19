@@ -1,0 +1,16 @@
+{
+  "name": "ls_adls",
+  "type": "AzureBlobFS",
+  "description": "ADLS Gen2 — raw landing zone",
+  "properties": {
+    "type": "AzureBlobFS",
+    "typeProperties": {
+      "url": "https://{storageAccountName}.dfs.core.windows.net",
+      "accountKey": {
+        "type": "AzureKeyVaultSecret",
+        "store": { "referenceName": "ls_key_vault", "type": "LinkedServiceReference" },
+        "secretName": "adls-account-key"
+      }
+    }
+  }
+}

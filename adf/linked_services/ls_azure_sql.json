@@ -1,0 +1,11 @@
+{
+  "name": "ls_azure_sql",
+  "type": "AzureSqlDatabase",
+  "description": "Azure SQL Database — migration target",
+  "properties": {
+    "type": "AzureSqlDatabase",
+    "typeProperties": {
+      "connectionString": "@Microsoft.KeyVault(SecretUri=https://{keyVaultName}.vault.azure.net/secrets/azure-sql-connection-string/)"
+    }
+  }
+}

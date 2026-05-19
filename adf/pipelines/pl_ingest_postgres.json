@@ -1,0 +1,13 @@
+{
+  "name": "pl_ingest_postgres",
+  "description": "Full and incremental load from Azure Database for PostgreSQL to ADLS Gen2",
+  "properties": {
+    "parameters": {
+      "table_name": { "type": "string" },
+      "schema_name": { "type": "string", "defaultValue": "public" },
+      "watermark_column": { "type": "string", "defaultValue": "updated_at" },
+      "load_type": { "type": "string", "defaultValue": "incremental" }
+    },
+    "activities": []
+  }
+}

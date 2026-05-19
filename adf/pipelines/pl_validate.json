@@ -1,0 +1,11 @@
+{
+  "name": "pl_validate",
+  "description": "Invoke Azure Function validation per table and write reconciliation output",
+  "properties": {
+    "parameters": {
+      "table_name": { "type": "string" },
+      "pk_column": { "type": "string", "defaultValue": "id" }
+    },
+    "activities": []
+  }
+}

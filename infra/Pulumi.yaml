@@ -1,0 +1,9 @@
+name: azure-insurance-0001
+description: Azure infrastructure for the insurance migration and validation pipeline
+runtime:
+  name: nodejs
+  options:
+    typescript: true
+config:
+  azure-native:location:
+    default: uksouth
